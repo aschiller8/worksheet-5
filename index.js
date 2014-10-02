@@ -25,3 +25,9 @@ function coin_flip() {
 }
 
 
+function six_sided_dice() {
+  var dice = Math.ceil(Math.random() * 6);
+  return dice;
+}
+
+
