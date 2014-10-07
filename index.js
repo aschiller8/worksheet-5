@@ -31,3 +31,15 @@ function six_sided_dice() {
 }
 
 
+// Problem 3
+
+function five_rolls() {
+	var list = [];
+	var i = 0;
+	while (i < 5) {
+		list[i] = six_sided_dice();
+		i += 1;
+	}
+	return list;
+}
+
