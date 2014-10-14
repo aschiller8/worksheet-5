@@ -43,3 +43,12 @@ function five_rolls() {
 	return list;
 }
 
+function Yahtzee(list) {
+  var i = 0; 
+  while (i < 4) {
+    if( list [i] !== list [ i + 1]){ 
+      return 0;   }
+    i = i + 1;
+  }
+return 50;
+}
