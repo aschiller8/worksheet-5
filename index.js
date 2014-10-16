@@ -93,5 +93,15 @@ function straight(list) {
   return 40;
 }
 
-
+function full_house(list) {
+  list.sort();
+  var i = 0
+  var j = 3
+  if (list[i] !== list[i + 2] || list[j] !== list[j + 1]){
+    return 0;
+  }
+    return 25; 
+      }
+  
+ full_house([2,2,5,5,5,])  
 
