@@ -52,3 +52,46 @@ function Yahtzee(list) {
   }
 return 50;
 }
+
+function total(arbitraryList) {
+var sum=0;
+var current;
+current=0;
+while (current !== arbitraryList.length){
+sum=arbitraryList[current]+sum;
+current=current+1;
+}
+return sum;
+}
+
+function FourKind(list) {
+list.sort();
+var equalities = 0;
+var i = 0;
+while (i !== list.length - 3) {
+if (list[i] === list[i + 3]) {
+equalities = equalities + 1;
+}
+i = i + 1;
+}
+if (equalities >= 1) {
+return total(list);
+}
+else {
+return 0;
+}
+} 
+
+function straight(list) {
+ list.sort();
+  var i = 0;
+  while (i < 4) {
+    if (list[i] + 1 !== list[i + 1]) {
+      return 0; }
+   i = i + 1;
+  }
+  return 40;
+}
+
+
+
