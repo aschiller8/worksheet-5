@@ -12,7 +12,8 @@ function minimum_of_two(first_number, second_number) {
   }
   return minimum;
 }
-
+ Problem 1
+ 
 function coin_flip() {
   var heads_or_tails;
   if (Math.random() < 0.5) {
@@ -24,14 +25,14 @@ function coin_flip() {
   return heads_or_tails;
 }
 
-
+ Problem 2 
+ 
 function six_sided_dice() {
   var dice = Math.ceil(Math.random() * 6);
   return dice;
 }
 
-
-// Problem 3
+ Problem 3
 
 function five_rolls() {
 	var list = [];
@@ -43,6 +44,8 @@ function five_rolls() {
 	return list;
 }
 
+Problem 4
+
 function Yahtzee(list) {
   var i = 0; 
   while (i < 4) {
@@ -52,6 +55,8 @@ function Yahtzee(list) {
   }
 return 50;
 }
+
+Problem 5
 
 function total(arbitraryList) {
 var sum=0;
@@ -63,6 +68,8 @@ current=current+1;
 }
 return sum;
 }
+
+Problem 6
 
 function FourKind(list) {
 list.sort();
@@ -82,6 +89,8 @@ return 0;
 }
 } 
 
+Problem 7
+
 function straight(list) {
  list.sort();
   var i = 0;
@@ -92,6 +101,8 @@ function straight(list) {
   }
   return 40;
 }
+
+Problem 8 
 
 function full_house(list) {
   list.sort();
@@ -105,7 +116,7 @@ function full_house(list) {
   return 25;
 } 
 
-number 10 
+Probelm  10 
 
 function max(list) {
   var t = 0;
