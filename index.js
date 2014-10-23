@@ -125,7 +125,7 @@ function max(list) {
     if ( list[t] > largest) {
       largest = list[t];
     }
-    t = 1
+    t = t + 1
   }
   return largest;
 }
