@@ -97,11 +97,11 @@ function full_house(list) {
   list.sort();
   var i = 0
   var j = 3
-  if (list[i] !== list[i + 2] || list[j] !== list[j + 1]){
-    return 0;
+  if (list[0] !== list[2] || list[3] !== list[4]) {
+    if (list[0] !== list[1] || list[2] !== list[4]) {
+      return 0;
+    }
   }
-    return 25; 
-      }
-  
- full_house([2,2,5,5,5,])  
+  return 25;
+} 
 
