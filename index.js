@@ -105,3 +105,18 @@ function full_house(list) {
   return 25;
 } 
 
+number 10 
+
+function max(list) {
+  var t = 0;
+  var largest = - Infinity;
+  while ( t < list.length) {
+    if ( list[t] > largest) {
+      largest = list[t];
+    }
+    t += 1
+  }
+  return largest;
+}
+
+max([3,1,66,5,3,2,8])
